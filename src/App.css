@@ -1,0 +1,110 @@
+body {
+  background: #8758ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TodoWrapper {
+  text-align: center;
+  background: rgb(21, 1, 29);
+  width: 400px;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.TodoWrapper .Todo {
+  margin: 0 auto;
+  margin-top: 4px;
+  width: 270px;
+  height: 30px;
+  border-radius: 4px;
+}
+.TodoWrapper .EditTodoForms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 278px;
+  height: 30px;
+  border-radius: 4px;
+}
+.TodoForms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.EditTodoForms input {
+  background: transparent;
+  border: 1px solid #8758ff;
+  width: 190px;
+  height: 25px;
+  margin-right: 2px;
+  color: white;
+}
+.EditTodoForms-input::placeholder {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+.EditTodoForms button {
+  width: 83px;
+  height: 33px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.TodoForms input {
+  background: transparent;
+  color: white;
+  width: 200px;
+  height: 30px;
+  border: 1px solid #8758ff;
+  margin-right: 2px;
+}
+.TodoForms button {
+  width: 70px;
+  height: 33px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.todo-input::placeholder {
+  color: #f7f5f54b;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.todo-btn {
+  background: #8758ff;
+  color: white;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.Todo {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  width: 200px;
+  background-color: #8758ff;
+}
+.Todo p {
+  width: 200px;
+}
+.fa {
+  width: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-trach {
+  margin-right: 0.75rem;
+}
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+}

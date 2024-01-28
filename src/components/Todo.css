@@ -1,0 +1,63 @@
+body {
+  background: rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: white;
+}
+.Todo-content {
+  text-align: center;
+  width: 400px;
+  background-color: rgba(23, 15, 46, 0.925);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  border: 1px solid rgb(60, 24, 97);
+  width: 200px;
+  height: 25px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+}
+.btn {
+  background-color: rebeccapurple;
+  width: 100px;
+  height: 33px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+.Todo-content ul li {
+  list-style-type: none;
+  overflow-wrap: break-word;
+  cursor: pointer;
+  color: white;
+}
+.Done {
+  text-decoration: line-through;
+}
+.ul-Content {
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: rebeccapurple;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+.Trash {
+  color: white;
+  cursor: pointer;
+}
